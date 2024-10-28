@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "1c3e7872-62a5-4c67-add8-49352d7b2404",
+		"name": "Aula 21-10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34936664"
+	},
+	"item": [
+		{
+			"name": "Busca pokemon com sucesso",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/pokemon/ditto",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"pokemon",
+						"ditto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca pokemon inexistente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/pokemon/Ronaldinho",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"pokemon",
+						"Ronaldinho"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get em endpoint inexistente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/pokemao/ditto",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"pokemao",
+						"ditto"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
