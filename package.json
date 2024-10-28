@@ -1,0 +1,8 @@
+{
+  "name": "s206-lab",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.15.1"
+  }
+}
