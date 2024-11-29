@@ -1,4 +1,4 @@
-## Aula 14-10: Lista 1
+## Lista 2
 
 ### Configuração do projeto
 
