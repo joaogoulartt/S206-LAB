@@ -1,0 +1,21 @@
+{
+  "name": "s206-lista-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run",
+    "report": "cypress run --s 'cypress/e2e/**/' && npx vite --open cypress/reports/html/index.html",
+    "report:open": "npx vite --open cypress/reports/html/index.html"
+  },
+  "dependencies": {
+    "cypress": "^13.15.1",
+    "vite": "^6.0.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
